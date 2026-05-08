@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 flask
 gunicorn
 sendgrid
-=======
-flask
-gunicorn
->>>>>>> ff4e321ddee643b040807a1482ce77a3e6af32a6
+
+
