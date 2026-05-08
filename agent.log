@@ -1,0 +1,1640 @@
+2026-05-01 19:25:14,618  INFO      ============================================================
+2026-05-01 19:25:14,619  INFO      ResolvOps Business AI Agent starting
+2026-05-01 19:25:14,619  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 19:25:14,619  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 19:25:14,619  INFO        Poll   : every 60s
+2026-05-01 19:25:14,620  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 19:25:14,620  INFO      ============================================================
+2026-05-01 19:25:14,620  INFO      ── Polling inbox ──
+2026-05-01 19:25:16,286  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:25:16,286  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 19:25:16,287  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:26:15,334  INFO      ── Polling inbox ──
+2026-05-01 19:26:17,518  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:26:17,519  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 19:26:17,520  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:27:15,639  INFO      ── Polling inbox ──
+2026-05-01 19:27:17,701  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:27:17,703  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 19:27:17,703  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:28:15,948  INFO      ── Polling inbox ──
+2026-05-01 19:28:17,598  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:28:17,599  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 19:28:17,600  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:29:16,790  INFO      ── Polling inbox ──
+2026-05-01 19:29:18,749  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:29:18,750  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 19:29:18,751  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:30:16,824  INFO      ── Polling inbox ──
+2026-05-01 19:30:18,517  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:30:18,519  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 19:30:18,520  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:31:17,762  INFO      ── Polling inbox ──
+2026-05-01 19:31:19,489  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:31:19,490  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 7 errors.
+2026-05-01 19:31:19,491  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:32:18,708  INFO      ── Polling inbox ──
+2026-05-01 19:32:20,610  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:32:20,610  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 19:32:20,611  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:33:18,822  INFO      ── Polling inbox ──
+2026-05-01 19:33:20,753  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:33:20,754  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 9 errors.
+2026-05-01 19:33:20,757  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:34:18,949  INFO      ── Polling inbox ──
+2026-05-01 19:34:20,630  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:34:20,632  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 10 errors.
+2026-05-01 19:34:20,632  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:35:19,775  INFO      ── Polling inbox ──
+2026-05-01 19:35:21,628  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:35:21,629  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 11 errors.
+2026-05-01 19:35:21,630  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:36:19,778  INFO      ── Polling inbox ──
+2026-05-01 19:36:20,388  ERROR     IMAP fetch failed: b'[Error="AuthFailed:LogonDenied-BasicAuthBlocked-<RequestId=7fd911ba-dc00-4f73-880c-58c5fb2c1928,ST=00:41:47><Process:Microsoft.Exchange.Security.BasicAuthService.Server><BG<UserType:OutlookCom><LogonFailed-BasicAuthBlocked><AS:BasicAuthBlocked><Tid=84df9e7f-e9f6-40af-b435-aaaaaaaaaaaa><V1 User:resolvops@outlook.com" AuthResult=28 Proxy=PH0PR03MB6590.namprd03.PROD.OUTLOOK.COM:1993:SSL MailboxBE=PH0PR03MB6590.namprd03.PROD.OUTLOOK.COM Service=Imap4] AUTHENTICATE failed.'
+2026-05-01 19:36:20,390  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 12 errors.
+2026-05-01 19:36:20,391  INFO      Sleeping 59s until next poll…
+
+2026-05-01 19:37:20,621  INFO      ── Polling inbox ──
+2026-05-01 19:37:22,357  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:37:22,358  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 13 errors.
+2026-05-01 19:37:22,359  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:38:21,598  INFO      ── Polling inbox ──
+2026-05-01 19:38:23,522  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:38:23,524  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 14 errors.
+2026-05-01 19:38:23,525  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:39:21,777  INFO      ── Polling inbox ──
+2026-05-01 19:39:23,473  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:39:23,474  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 15 errors.
+2026-05-01 19:39:23,475  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:40:22,687  INFO      ── Polling inbox ──
+2026-05-01 19:40:24,483  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:40:24,485  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 16 errors.
+2026-05-01 19:40:24,485  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:41:22,721  INFO      ── Polling inbox ──
+2026-05-01 19:41:24,579  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:41:24,580  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 17 errors.
+2026-05-01 19:41:24,581  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:42:23,718  INFO      ── Polling inbox ──
+2026-05-01 19:42:25,439  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:42:25,441  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 18 errors.
+2026-05-01 19:42:25,444  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:43:24,713  INFO      ── Polling inbox ──
+2026-05-01 19:43:26,406  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:43:26,411  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 19 errors.
+2026-05-01 19:43:26,412  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:44:25,677  INFO      ── Polling inbox ──
+2026-05-01 19:44:27,453  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:44:27,455  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 20 errors.
+2026-05-01 19:44:27,455  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:45:26,649  INFO      ── Polling inbox ──
+2026-05-01 19:45:28,484  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:45:28,486  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 21 errors.
+2026-05-01 19:45:28,486  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:46:26,725  INFO      ── Polling inbox ──
+2026-05-01 19:46:28,480  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:46:28,481  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 22 errors.
+2026-05-01 19:46:28,482  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:47:27,604  INFO      ── Polling inbox ──
+2026-05-01 19:47:29,710  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:47:29,711  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 23 errors.
+2026-05-01 19:47:29,711  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:48:02,785  INFO      ============================================================
+2026-05-01 19:48:02,787  INFO      ResolvOps Business AI Agent starting
+2026-05-01 19:48:02,788  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 19:48:02,788  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 19:48:02,789  INFO        Poll   : every 60s
+2026-05-01 19:48:02,789  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 19:48:02,789  INFO      ============================================================
+2026-05-01 19:48:02,789  INFO      ── Polling inbox ──
+2026-05-01 19:48:04,474  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:48:04,474  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 19:48:04,475  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:48:56,595  INFO      ============================================================
+2026-05-01 19:48:56,595  INFO      ResolvOps Business AI Agent starting
+2026-05-01 19:48:56,596  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 19:48:56,596  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 19:48:56,596  INFO        Poll   : every 60s
+2026-05-01 19:48:56,596  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 19:48:56,597  INFO      ============================================================
+2026-05-01 19:48:56,598  INFO      ── Polling inbox ──
+2026-05-01 19:48:58,747  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:48:58,748  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 19:48:58,748  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:49:03,505  INFO      ── Polling inbox ──
+2026-05-01 19:49:05,191  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:49:05,192  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 19:49:05,193  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:49:56,775  INFO      ── Polling inbox ──
+2026-05-01 19:49:58,466  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:49:58,467  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 19:49:58,467  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:50:57,557  INFO      ── Polling inbox ──
+2026-05-01 19:50:59,218  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:50:59,219  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 19:50:59,220  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:51:58,310  INFO      ── Polling inbox ──
+2026-05-01 19:52:00,288  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:52:00,290  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 19:52:00,293  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:52:58,579  INFO      ── Polling inbox ──
+2026-05-01 19:53:00,521  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:53:00,523  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 19:53:00,526  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:53:58,697  INFO      ── Polling inbox ──
+2026-05-01 19:54:00,608  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:54:00,610  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 19:54:00,612  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:54:58,799  INFO      ── Polling inbox ──
+2026-05-01 19:55:00,466  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:55:00,468  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 7 errors.
+2026-05-01 19:55:00,470  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:55:59,719  INFO      ── Polling inbox ──
+2026-05-01 19:56:01,614  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:56:01,617  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 19:56:01,619  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:56:59,850  INFO      ── Polling inbox ──
+2026-05-01 19:57:01,875  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:57:01,877  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 9 errors.
+2026-05-01 19:57:01,879  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:58:00,056  INFO      ── Polling inbox ──
+2026-05-01 19:58:01,864  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:58:01,865  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 10 errors.
+2026-05-01 19:58:01,865  INFO      Sleeping 58s until next poll…
+
+2026-05-01 19:59:00,068  INFO      ── Polling inbox ──
+2026-05-01 19:59:02,151  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 19:59:02,152  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 11 errors.
+2026-05-01 19:59:02,153  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:00:00,289  INFO      ── Polling inbox ──
+2026-05-01 20:00:02,228  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:00:02,229  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 12 errors.
+2026-05-01 20:00:02,230  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:01:18,445  INFO      ============================================================
+2026-05-01 20:01:18,446  INFO      ResolvOps Business AI Agent starting
+2026-05-01 20:01:18,446  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 20:01:18,446  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 20:01:18,447  INFO        Poll   : every 60s
+2026-05-01 20:01:18,448  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 20:01:18,448  INFO      ============================================================
+2026-05-01 20:01:18,449  INFO      ── Polling inbox ──
+2026-05-01 20:01:20,182  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:01:20,183  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 20:01:20,184  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:02:19,241  INFO      ── Polling inbox ──
+2026-05-01 20:02:20,975  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:02:20,979  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 20:02:20,981  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:03:05,417  INFO      ============================================================
+2026-05-01 20:03:05,418  INFO      ResolvOps Business AI Agent starting
+2026-05-01 20:03:05,418  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 20:03:05,419  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 20:03:05,419  INFO        Poll   : every 60s
+2026-05-01 20:03:05,420  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 20:03:05,420  INFO      ============================================================
+2026-05-01 20:03:05,421  INFO      ── Polling inbox ──
+2026-05-01 20:03:07,216  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:03:07,218  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 20:03:07,219  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:04:06,245  INFO      ── Polling inbox ──
+2026-05-01 20:04:08,205  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:04:08,208  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 20:04:08,209  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:05:07,238  INFO      ── Polling inbox ──
+2026-05-01 20:05:08,789  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:05:08,790  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 20:05:08,790  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:05:49,570  INFO      ============================================================
+2026-05-01 20:05:49,570  INFO      ResolvOps Business AI Agent starting
+2026-05-01 20:05:49,571  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 20:05:49,571  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 20:05:49,571  INFO        Poll   : every 60s
+2026-05-01 20:05:49,572  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 20:05:49,572  INFO      ============================================================
+2026-05-01 20:05:49,572  INFO      ── Polling inbox ──
+2026-05-01 20:05:51,240  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:05:51,242  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 20:05:51,242  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:06:50,271  INFO      ── Polling inbox ──
+2026-05-01 20:06:52,273  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:06:52,274  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 20:06:52,274  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:07:50,303  INFO      ── Polling inbox ──
+2026-05-01 20:07:52,327  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:07:52,327  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 20:07:52,328  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:08:50,354  INFO      ── Polling inbox ──
+2026-05-01 20:08:52,117  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:08:52,118  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 20:08:52,118  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:09:51,144  INFO      ── Polling inbox ──
+2026-05-01 20:09:53,067  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:09:53,067  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 20:09:53,068  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:10:52,095  INFO      ── Polling inbox ──
+2026-05-01 20:10:53,989  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:10:53,990  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 20:10:53,991  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:11:53,020  INFO      ── Polling inbox ──
+2026-05-01 20:11:54,816  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:11:54,817  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 7 errors.
+2026-05-01 20:11:54,818  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:12:53,853  INFO      ── Polling inbox ──
+2026-05-01 20:12:55,560  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:12:55,561  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 20:12:55,561  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:13:54,590  INFO      ── Polling inbox ──
+2026-05-01 20:13:56,651  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:13:56,652  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 9 errors.
+2026-05-01 20:13:56,652  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:14:54,683  INFO      ── Polling inbox ──
+2026-05-01 20:14:56,524  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:14:56,525  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 10 errors.
+2026-05-01 20:14:56,525  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:15:55,550  INFO      ── Polling inbox ──
+2026-05-01 20:15:57,348  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:15:57,348  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 11 errors.
+2026-05-01 20:15:57,348  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:16:56,381  INFO      ── Polling inbox ──
+2026-05-01 20:16:58,084  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:16:58,085  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 12 errors.
+2026-05-01 20:16:58,086  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:17:57,230  INFO      ── Polling inbox ──
+2026-05-01 20:17:58,976  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:17:58,978  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 13 errors.
+2026-05-01 20:17:58,979  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:18:58,178  INFO      ── Polling inbox ──
+2026-05-01 20:18:59,872  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:18:59,874  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 14 errors.
+2026-05-01 20:18:59,875  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:19:58,966  INFO      ── Polling inbox ──
+2026-05-01 20:20:01,095  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:20:01,096  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 15 errors.
+2026-05-01 20:20:01,097  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:20:59,140  INFO      ── Polling inbox ──
+2026-05-01 20:21:01,202  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:21:01,203  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 16 errors.
+2026-05-01 20:21:01,204  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:21:59,231  INFO      ── Polling inbox ──
+2026-05-01 20:22:01,258  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:22:01,260  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 17 errors.
+2026-05-01 20:22:01,260  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:22:59,284  INFO      ── Polling inbox ──
+2026-05-01 20:23:00,842  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:23:00,843  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 18 errors.
+2026-05-01 20:23:00,843  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:23:59,869  INFO      ── Polling inbox ──
+2026-05-01 20:24:01,861  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:24:01,862  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 19 errors.
+2026-05-01 20:24:01,862  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:24:59,885  INFO      ── Polling inbox ──
+2026-05-01 20:25:01,760  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:25:01,762  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 20 errors.
+2026-05-01 20:25:01,762  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:26:00,794  INFO      ── Polling inbox ──
+2026-05-01 20:26:02,541  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:26:02,542  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 21 errors.
+2026-05-01 20:26:02,542  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:26:45,184  INFO      ============================================================
+2026-05-01 20:26:45,184  INFO      ResolvOps Business AI Agent starting
+2026-05-01 20:26:45,184  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 20:26:45,185  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 20:26:45,185  INFO        Poll   : every 60s
+2026-05-01 20:26:45,185  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 20:26:45,185  INFO      ============================================================
+2026-05-01 20:26:45,185  INFO      ── Polling inbox ──
+2026-05-01 20:26:46,980  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:26:46,981  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 20:26:46,982  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:36:08,304  INFO      ============================================================
+2026-05-01 20:36:08,305  INFO      ResolvOps Business AI Agent starting
+2026-05-01 20:36:08,305  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 20:36:08,306  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 20:36:08,306  INFO        Poll   : every 60s
+2026-05-01 20:36:08,307  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 20:36:08,307  INFO      ============================================================
+2026-05-01 20:36:08,307  INFO      ── Polling inbox ──
+2026-05-01 20:36:10,434  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:36:10,435  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 20:36:10,435  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:37:08,463  INFO      ── Polling inbox ──
+2026-05-01 20:37:10,146  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:37:10,147  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 20:37:10,148  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:38:09,178  INFO      ── Polling inbox ──
+2026-05-01 20:38:11,006  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:38:11,007  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 20:38:11,007  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:39:10,036  INFO      ── Polling inbox ──
+2026-05-01 20:39:12,535  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:39:12,536  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 20:39:12,536  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:40:10,561  INFO      ── Polling inbox ──
+2026-05-01 20:40:12,298  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:40:12,299  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 20:40:12,299  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:41:11,328  INFO      ── Polling inbox ──
+2026-05-01 20:41:13,080  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:41:13,081  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 20:41:13,082  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:42:12,108  INFO      ── Polling inbox ──
+2026-05-01 20:42:13,811  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:42:13,813  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 7 errors.
+2026-05-01 20:42:13,813  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:43:12,840  INFO      ── Polling inbox ──
+2026-05-01 20:43:14,441  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:43:14,442  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 20:43:14,443  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:44:13,482  INFO      ── Polling inbox ──
+2026-05-01 20:44:15,163  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:44:15,163  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 9 errors.
+2026-05-01 20:44:15,163  INFO      Sleeping 58s until next poll…
+
+2026-05-01 20:45:14,203  INFO      ── Polling inbox ──
+2026-05-01 20:45:17,262  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:45:17,262  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 10 errors.
+2026-05-01 20:45:17,263  INFO      Sleeping 57s until next poll…
+
+2026-05-01 20:46:14,288  INFO      ── Polling inbox ──
+2026-05-01 20:46:15,995  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 20:46:15,996  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 11 errors.
+2026-05-01 20:46:15,996  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:25:55,396  INFO      ── Polling inbox ──
+2026-05-01 21:26:00,369  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:26:00,369  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 12 errors.
+2026-05-01 21:26:00,370  INFO      Sleeping 55s until next poll…
+
+2026-05-01 21:26:56,393  INFO      ── Polling inbox ──
+2026-05-01 21:26:58,432  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:26:58,433  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 13 errors.
+2026-05-01 21:26:58,433  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:27:56,466  INFO      ── Polling inbox ──
+2026-05-01 21:27:58,348  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:27:58,349  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 14 errors.
+2026-05-01 21:27:58,349  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:28:57,439  INFO      ── Polling inbox ──
+2026-05-01 21:28:59,588  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:28:59,590  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 15 errors.
+2026-05-01 21:28:59,591  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:29:57,812  INFO      ── Polling inbox ──
+2026-05-01 21:29:59,613  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:29:59,615  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 16 errors.
+2026-05-01 21:29:59,616  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:30:58,714  INFO      ── Polling inbox ──
+2026-05-01 21:31:00,349  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:31:00,350  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 17 errors.
+2026-05-01 21:31:00,350  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:31:59,566  INFO      ── Polling inbox ──
+2026-05-01 21:32:01,214  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:32:01,215  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 18 errors.
+2026-05-01 21:32:01,215  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:32:42,656  INFO      ============================================================
+2026-05-01 21:32:42,659  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:32:42,660  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:32:42,661  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:32:42,662  INFO        Poll   : every 60s
+2026-05-01 21:32:42,663  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:32:42,663  INFO      ============================================================
+2026-05-01 21:32:42,664  INFO      ── Polling inbox ──
+2026-05-01 21:32:44,513  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:32:44,515  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:32:44,517  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:33:42,708  INFO      ── Polling inbox ──
+2026-05-01 21:33:44,586  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:33:44,588  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 21:33:44,593  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:34:42,807  INFO      ── Polling inbox ──
+2026-05-01 21:34:44,638  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:34:44,641  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 21:34:44,642  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:35:42,969  INFO      ── Polling inbox ──
+2026-05-01 21:35:44,702  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:35:44,704  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 21:35:44,706  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:36:18,309  INFO      ============================================================
+2026-05-01 21:36:18,310  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:36:18,310  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:36:18,310  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:36:18,311  INFO        Poll   : every 60s
+2026-05-01 21:36:18,311  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:36:18,312  INFO      ============================================================
+2026-05-01 21:36:18,312  INFO      ── Polling inbox ──
+2026-05-01 21:36:20,185  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:36:20,186  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:36:20,186  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:37:19,216  INFO      ── Polling inbox ──
+2026-05-01 21:37:20,976  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:37:20,978  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 21:37:20,980  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:38:20,037  INFO      ── Polling inbox ──
+2026-05-01 21:38:21,959  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:38:21,969  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 21:38:21,970  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:39:15,908  INFO      ============================================================
+2026-05-01 21:39:15,913  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:39:15,919  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:39:15,919  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:39:15,919  INFO        Poll   : every 60s
+2026-05-01 21:39:15,919  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:39:15,920  INFO      ============================================================
+2026-05-01 21:39:15,920  INFO      ── Polling inbox ──
+2026-05-01 21:39:17,607  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:39:17,608  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:39:17,608  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:39:20,182  INFO      ── Polling inbox ──
+2026-05-01 21:39:22,025  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:39:22,027  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 21:39:22,029  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:40:06,433  INFO      ============================================================
+2026-05-01 21:40:06,434  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:40:06,434  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:40:06,435  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:40:06,435  INFO        Poll   : every 60s
+2026-05-01 21:40:06,435  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:40:06,436  INFO      ============================================================
+2026-05-01 21:40:06,436  INFO      ── Polling inbox ──
+2026-05-01 21:40:08,417  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:40:08,421  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:40:08,426  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:41:06,541  INFO      ── Polling inbox ──
+2026-05-01 21:41:08,576  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:41:08,578  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 21:41:08,579  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:42:06,793  INFO      ── Polling inbox ──
+2026-05-01 21:42:08,628  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:42:08,631  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 21:42:08,633  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:43:06,801  INFO      ── Polling inbox ──
+2026-05-01 21:43:08,555  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:43:08,557  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 21:43:08,557  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:44:07,777  INFO      ── Polling inbox ──
+2026-05-01 21:44:09,675  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:44:09,677  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 21:44:09,678  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:45:07,957  INFO      ── Polling inbox ──
+2026-05-01 21:45:09,602  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:45:09,604  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 21:45:09,604  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:46:08,737  INFO      ── Polling inbox ──
+2026-05-01 21:46:10,542  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:46:10,543  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 7 errors.
+2026-05-01 21:46:10,543  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:46:35,682  INFO      ============================================================
+2026-05-01 21:46:35,683  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:46:35,684  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:46:35,688  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:46:35,690  INFO        Poll   : every 60s
+2026-05-01 21:46:35,692  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:46:35,694  INFO      ============================================================
+2026-05-01 21:46:35,694  INFO      ── Polling inbox ──
+2026-05-01 21:46:37,442  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:46:37,443  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:46:37,444  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:47:36,495  INFO      ── Polling inbox ──
+2026-05-01 21:47:38,356  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:47:38,357  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 21:47:38,358  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:48:36,509  INFO      ── Polling inbox ──
+2026-05-01 21:48:38,423  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:48:38,435  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 3 errors.
+2026-05-01 21:48:38,436  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:49:36,639  INFO      ── Polling inbox ──
+2026-05-01 21:49:38,404  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:49:38,406  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 4 errors.
+2026-05-01 21:49:38,407  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:50:37,642  INFO      ── Polling inbox ──
+2026-05-01 21:50:39,654  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:50:39,655  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 5 errors.
+2026-05-01 21:50:39,656  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:51:37,854  INFO      ── Polling inbox ──
+2026-05-01 21:51:39,773  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:51:39,775  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 6 errors.
+2026-05-01 21:51:39,775  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:56:10,696  INFO      ============================================================
+2026-05-01 21:56:10,698  INFO      ResolvOps Business AI Agent starting
+2026-05-01 21:56:10,698  INFO        Inbox  : resolvops@outlook.com @ imap-mail.outlook.com
+2026-05-01 21:56:10,698  INFO        Sender : resolvops@outlook.com @ smtp-mail.outlook.com
+2026-05-01 21:56:10,698  INFO        Poll   : every 60s
+2026-05-01 21:56:10,699  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 21:56:10,699  INFO      ============================================================
+2026-05-01 21:56:10,699  INFO      ── Polling inbox ──
+2026-05-01 21:56:12,312  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:56:12,313  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 21:56:12,315  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:57:11,341  INFO      ── Polling inbox ──
+2026-05-01 21:57:13,000  ERROR     IMAP fetch failed: b'LOGIN failed.'
+2026-05-01 21:57:13,002  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 2 errors.
+2026-05-01 21:57:13,005  INFO      Sleeping 58s until next poll…
+
+2026-05-01 21:57:49,600  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-01 21:57:50,020  INFO      Agent stopped cleanly. Goodbye.
+2026-05-01 22:06:48,046  INFO      ============================================================
+2026-05-01 22:06:48,047  INFO      ResolvOps Business AI Agent starting
+2026-05-01 22:06:48,048  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-01 22:06:48,048  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-01 22:06:48,049  INFO        Poll   : every 60s
+2026-05-01 22:06:48,049  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 22:06:48,049  INFO      ============================================================
+2026-05-01 22:06:48,050  INFO      ── Polling inbox ──
+2026-05-01 22:06:48,620  INFO      IMAP: 8 unseen message(s) found.
+2026-05-01 22:06:51,248  INFO      Processing: [1] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:51,697  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CacvbxLooHF5K6bMCBBRy"}
+2026-05-01 22:06:51,697  INFO      Processing: [2] 'Lethrell, finish setting up your new Google Account' from 'Google <no-reply@google.com>'
+2026-05-01 22:06:51,979  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CacvbyeSUYpz7d8obqUvv"}
+2026-05-01 22:06:51,980  INFO      Processing: [3] 'Verify your identity' from 'noreply@retellai.com'
+2026-05-01 22:06:52,140  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011CacvbzRKkDDfCDHjr1exX"}
+2026-05-01 22:06:52,140  INFO      Processing: [4] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:52,559  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cacvc2251LLKCSg3N1RXE"}
+2026-05-01 22:06:52,559  INFO      Processing: [5] '2-Step Verification turned on' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:52,828  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cacvc3GUfhEfuEK8yuzBt"}
+2026-05-01 22:06:52,828  INFO      Processing: [6] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:53,130  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cacvc4Z7kayZ7MePVXp5k"}
+2026-05-01 22:06:53,131  INFO      Processing: [7] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:53,349  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cacvc5bsfhUKA68uUJegm"}
+2026-05-01 22:06:53,350  INFO      Processing: [8] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-01 22:06:53,506  ERROR       Claude error: Claude API HTTP 400: {"type":"error","error":{"type":"invalid_request_error","message":"Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."},"request_id":"req_011Cacvc6FpAR8oLNVXeMgLi"}
+2026-05-01 22:06:53,507  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:06:53,508  INFO      Sleeping 55s until next poll…
+
+2026-05-01 22:07:48,533  INFO      ── Polling inbox ──
+2026-05-01 22:07:49,105  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:07:49,164  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:07:49,164  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:08:49,296  INFO      ── Polling inbox ──
+2026-05-01 22:08:51,273  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:08:51,405  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:08:51,406  INFO      Sleeping 58s until next poll…
+
+2026-05-01 22:09:49,574  INFO      ── Polling inbox ──
+2026-05-01 22:09:50,524  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:09:50,604  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:09:50,606  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:10:49,922  INFO      ── Polling inbox ──
+2026-05-01 22:10:50,445  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:10:50,507  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:10:50,507  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:11:50,656  INFO      ── Polling inbox ──
+2026-05-01 22:11:51,645  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:11:51,750  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:11:51,753  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:12:51,047  INFO      ── Polling inbox ──
+2026-05-01 22:12:51,812  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:12:51,934  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:12:51,935  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:13:51,143  INFO      ── Polling inbox ──
+2026-05-01 22:13:51,772  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:13:51,863  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:13:51,865  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:14:52,146  INFO      ── Polling inbox ──
+2026-05-01 22:14:52,762  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:14:52,841  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:14:52,842  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:15:52,996  INFO      ── Polling inbox ──
+2026-05-01 22:15:53,652  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:15:53,716  INFO      Cycle done. Total: 8 processed, 0 replied, 0 skipped, 8 errors.
+2026-05-01 22:15:53,718  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:16:38,005  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-01 22:16:38,769  INFO      Agent stopped cleanly. Goodbye.
+2026-05-01 22:16:49,725  INFO      ============================================================
+2026-05-01 22:16:49,726  INFO      ResolvOps Business AI Agent starting
+2026-05-01 22:16:49,727  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-01 22:16:49,727  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-01 22:16:49,727  INFO        Poll   : every 60s
+2026-05-01 22:16:49,728  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 22:16:49,728  INFO      ============================================================
+2026-05-01 22:16:49,728  INFO      ── Polling inbox ──
+2026-05-01 22:16:50,350  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:16:50,414  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:16:50,415  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:17:50,442  INFO      ── Polling inbox ──
+2026-05-01 22:17:51,013  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:17:51,075  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:17:51,076  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:18:51,106  INFO      ── Polling inbox ──
+2026-05-01 22:18:51,613  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:18:51,669  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:18:51,670  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:19:51,699  INFO      ── Polling inbox ──
+2026-05-01 22:19:52,416  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:19:52,508  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:19:52,508  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:20:52,535  INFO      ── Polling inbox ──
+2026-05-01 22:20:54,083  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:20:54,242  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:20:54,243  INFO      Sleeping 58s until next poll…
+
+2026-05-01 22:21:53,274  INFO      ── Polling inbox ──
+2026-05-01 22:21:55,538  INFO      IMAP: 1 unseen message(s) found.
+2026-05-01 22:21:56,080  INFO      Processing: [9] 'Host' from 'Tim Stevens <freewayrick1001@gmail.com>'
+2026-05-01 22:21:56,440  ERROR       Claude error: Claude API HTTP 404: {"type":"error","error":{"type":"not_found_error","message":"model: claude-sonnet-4-20250514"},"request_id":"req_011CacwkeAY8kRtykGjR2n6J"}
+2026-05-01 22:21:56,441  INFO      Cycle done. Total: 1 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 22:21:56,442  INFO      Sleeping 57s until next poll…
+
+2026-05-01 22:22:53,466  INFO      ── Polling inbox ──
+2026-05-01 22:22:53,989  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:22:54,046  INFO      Cycle done. Total: 1 processed, 0 replied, 0 skipped, 1 errors.
+2026-05-01 22:22:54,047  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:23:09,995  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-01 22:23:10,054  INFO      Agent stopped cleanly. Goodbye.
+2026-05-01 22:26:17,346  INFO      ============================================================
+2026-05-01 22:26:17,347  INFO      ResolvOps Business AI Agent starting
+2026-05-01 22:26:17,348  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-01 22:26:17,348  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-01 22:26:17,349  INFO        Poll   : every 60s
+2026-05-01 22:26:17,349  INFO        Dry run: True  (no emails sent when True)
+2026-05-01 22:26:17,349  INFO      ============================================================
+2026-05-01 22:26:17,349  INFO      ── Polling inbox ──
+2026-05-01 22:26:17,864  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:26:17,930  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-01 22:26:17,931  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:27:17,957  INFO      ── Polling inbox ──
+2026-05-01 22:27:18,559  INFO      IMAP: 1 unseen message(s) found.
+2026-05-01 22:27:18,905  INFO      Processing: [10] 'Host' from 'Tim Stevens <freewayrick1001@gmail.com>'
+2026-05-01 22:27:27,322  INFO        → REPLY drafted
+2026-05-01 22:27:27,323  INFO        → DRY RUN — reply NOT sent. Draft logged below:
+2026-05-01 22:27:27,324  INFO      ----------------------------------------
+2026-05-01 22:27:27,324  INFO      Hi Tim,
+
+Great questions! Here's the honest answer:
+
+**Is it worth it?** For most hosts, absolutely. Our clients typically see ROI within the first month just from capturing bookings they would have otherwise missed. When a guest calls at 2 AM about a lockout or a potential booking comes in while you're busy — that's money saved or earned that pays for the service many times over.
+
+**What makes us different:**
+
+1. **Built specifically for short-term rental hosts** — not a generic answering service. Our AI understands check-in issues, booking questions, and guest concerns.
+
+2. **24/7 coverage without the 24/7 price** — Starting at $397/mo, you get round-the-clock phone answering and missed-call recovery that would cost 3-4x more with a traditional service.
+
+3. **We actually resolve issues, not just take messages** — Our Growth and Pro tiers handle estimate intake, email replies, and even booking/dispatch automation so you're not just getting a voicemail forwarded.
+
+4. **No long-term contracts** — Cancel anytime with 30 days notice. We earn your business every month.
+
+Would you be open to a quick 15-minute call? I'd love to hear more about your hosting setup and show you exactly how this would work for your properties.
+
+The ResolvOps Team
+2026-05-01 22:27:27,325  INFO      ----------------------------------------
+2026-05-01 22:27:27,325  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-01 22:27:27,326  INFO      Sleeping 51s until next poll…
+
+2026-05-01 22:28:18,345  INFO      ── Polling inbox ──
+2026-05-01 22:28:18,932  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:28:18,999  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-01 22:28:18,999  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:29:19,024  INFO      ── Polling inbox ──
+2026-05-01 22:29:21,052  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:29:21,161  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-01 22:29:21,162  INFO      Sleeping 58s until next poll…
+
+2026-05-01 22:30:19,188  INFO      ── Polling inbox ──
+2026-05-01 22:32:34,357  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:32:34,421  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-01 22:32:34,422  INFO      Sleeping 0s until next poll…
+
+2026-05-01 22:32:34,422  INFO      ── Polling inbox ──
+2026-05-01 22:32:34,987  INFO      IMAP: 0 unseen message(s) found.
+2026-05-01 22:32:35,056  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-01 22:32:35,059  INFO      Sleeping 59s until next poll…
+
+2026-05-01 22:32:48,819  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-01 22:32:49,068  INFO      Agent stopped cleanly. Goodbye.
+2026-05-02 02:14:29,565  INFO      ============================================================
+2026-05-02 02:14:29,567  INFO      ResolvOps Business AI Agent starting
+2026-05-02 02:14:29,568  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-02 02:14:29,569  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-02 02:14:29,570  INFO        Poll   : every 60s
+2026-05-02 02:14:29,571  INFO        Dry run: True  (no emails sent when True)
+2026-05-02 02:14:29,572  INFO      ============================================================
+2026-05-02 02:14:29,572  INFO      ── Polling inbox ──
+2026-05-02 02:14:30,313  INFO      IMAP: 2 unseen message(s) found.
+2026-05-02 02:14:30,922  INFO      Processing: [12] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-02 02:14:32,008  INFO        → SKIP (classified as non-business)
+2026-05-02 02:14:32,009  INFO      Processing: [13] 'Welcome to Calendly' from 'Calendly <teamcalendly@send.calendly.com>'
+2026-05-02 02:14:33,306  INFO        → SKIP (classified as non-business)
+2026-05-02 02:14:33,307  INFO      Cycle done. Total: 2 processed, 0 replied, 2 skipped, 0 errors.
+2026-05-02 02:14:33,307  INFO      Sleeping 56s until next poll…
+
+2026-05-02 02:15:30,333  INFO      ── Polling inbox ──
+2026-05-02 02:15:30,853  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 02:15:30,931  INFO      Cycle done. Total: 2 processed, 0 replied, 2 skipped, 0 errors.
+2026-05-02 02:15:30,931  INFO      Sleeping 59s until next poll…
+
+2026-05-02 02:15:38,683  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-02 02:15:38,935  INFO      Agent stopped cleanly. Goodbye.
+2026-05-02 16:27:41,965  INFO      ============================================================
+2026-05-02 16:27:41,966  INFO      ResolvOps Business AI Agent starting
+2026-05-02 16:27:41,966  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-02 16:27:41,967  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-02 16:27:41,968  INFO        Poll   : every 60s
+2026-05-02 16:27:41,968  INFO        Dry run: True  (no emails sent when True)
+2026-05-02 16:27:41,969  INFO      ============================================================
+2026-05-02 16:27:41,970  INFO      ── Polling inbox ──
+2026-05-02 16:27:42,688  INFO      IMAP: 2 unseen message(s) found.
+2026-05-02 16:27:43,297  INFO      Processing: [14] 'Your new Event Type is ready! Share it today' from 'Calendly <teamcalendly@send.calendly.com>'
+2026-05-02 16:27:44,329  INFO        → SKIP (classified as non-business)
+2026-05-02 16:27:44,330  INFO      Processing: [15] 'Rebar company' from 'Tim Stevens <freewayrick1001@gmail.com>'
+2026-05-02 16:27:54,103  INFO        → REPLY drafted
+2026-05-02 16:27:54,104  INFO        → DRY RUN — reply NOT sent. Draft logged below:
+2026-05-02 16:27:54,104  INFO      ----------------------------------------
+2026-05-02 16:27:54,105  INFO      Hi Tim,
+
+Great questions — I appreciate you being direct.
+
+**Is it worth it?**
+
+For most contractors, absolutely. If you're missing calls while on the job site, losing leads to voicemail, or spending evenings returning calls instead of being with your family, our service typically pays for itself within the first few captured jobs. One missed call on a rebar project could easily be worth more than a full year of our service.
+
+**What makes us different?**
+
+Most answering services just take messages. We actually *handle* the call — capturing job details, qualifying leads, and even scheduling estimates if you want. Your callers talk to an AI that sounds natural and knows your business, not a generic operator reading a script.
+
+**What we'll do for you specifically:**
+
+- Answer every call 24/7, so you never miss a lead while you're pouring or tying rebar
+- Capture project details (job type, location, timeline, square footage)
+- Send you instant summaries so you can prioritize callbacks
+- Recover missed calls automatically with follow-up texts
+- Handle appointment scheduling if you want to go that route
+
+Our Starter plan runs $497/month — less than what most contractors lose on a single missed job.
+
+Want to hop on a quick call this week? I can show you exactly how it would work for your rebar company. Just reply with a couple times that work for you, or book directly here: [scheduling link]
+
+The ResolvOps Team
+2026-05-02 16:27:54,106  INFO      ----------------------------------------
+2026-05-02 16:27:54,108  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:27:54,109  INFO      Sleeping 48s until next poll…
+
+2026-05-02 16:28:42,127  INFO      ── Polling inbox ──
+2026-05-02 16:29:18,703  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:29:18,758  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:29:18,758  INFO      Sleeping 23s until next poll…
+
+2026-05-02 16:29:42,771  INFO      ── Polling inbox ──
+2026-05-02 16:29:43,269  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:29:43,328  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:29:43,329  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:30:43,360  INFO      ── Polling inbox ──
+2026-05-02 16:30:43,838  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:30:43,905  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:30:43,912  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:31:43,955  INFO      ── Polling inbox ──
+2026-05-02 16:31:44,502  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:31:44,571  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:31:44,571  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:32:44,600  INFO      ── Polling inbox ──
+2026-05-02 16:32:45,092  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:32:45,173  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:32:45,174  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:33:45,219  INFO      ── Polling inbox ──
+2026-05-02 16:33:45,773  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:33:45,850  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:33:45,851  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:34:45,902  INFO      ── Polling inbox ──
+2026-05-02 16:34:48,530  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:34:48,629  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:34:48,630  INFO      Sleeping 57s until next poll…
+
+2026-05-02 16:35:46,681  INFO      ── Polling inbox ──
+2026-05-02 16:35:47,225  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:35:47,286  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:35:47,286  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:36:47,327  INFO      ── Polling inbox ──
+2026-05-02 16:36:48,084  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:36:48,173  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:36:48,174  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:37:48,266  INFO      ── Polling inbox ──
+2026-05-02 16:37:48,857  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:37:48,925  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:37:48,926  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:38:48,968  INFO      ── Polling inbox ──
+2026-05-02 16:38:49,460  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:38:49,544  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:38:49,545  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:39:49,580  INFO      ── Polling inbox ──
+2026-05-02 16:39:50,387  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:39:50,446  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:39:50,449  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:40:50,539  INFO      ── Polling inbox ──
+2026-05-02 16:40:51,097  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:40:51,155  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:40:51,158  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:41:51,252  INFO      ── Polling inbox ──
+2026-05-02 16:41:51,867  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:41:51,952  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:41:51,952  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:42:52,122  INFO      ── Polling inbox ──
+2026-05-02 16:42:53,361  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:42:53,432  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:42:53,453  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:43:52,596  INFO      ── Polling inbox ──
+2026-05-02 16:43:53,127  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:43:53,194  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:43:53,197  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:44:53,516  INFO      ── Polling inbox ──
+2026-05-02 16:44:54,088  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:44:54,155  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:44:54,160  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:45:53,532  INFO      ── Polling inbox ──
+2026-05-02 16:45:54,018  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:45:54,100  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:45:54,129  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:46:54,478  INFO      ── Polling inbox ──
+2026-05-02 16:46:54,993  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:46:55,054  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:46:55,056  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:47:55,274  INFO      ── Polling inbox ──
+2026-05-02 16:47:55,862  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:47:55,948  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:47:55,949  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:48:56,179  INFO      ── Polling inbox ──
+2026-05-02 16:48:56,685  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:48:56,752  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:48:56,753  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:49:56,978  INFO      ── Polling inbox ──
+2026-05-02 16:49:57,527  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:49:57,590  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:49:57,599  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:50:57,755  INFO      ── Polling inbox ──
+2026-05-02 16:50:58,269  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:50:58,328  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:50:58,330  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:51:58,606  INFO      ── Polling inbox ──
+2026-05-02 16:51:59,241  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:51:59,321  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:51:59,322  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:52:59,565  INFO      ── Polling inbox ──
+2026-05-02 16:53:00,076  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:53:00,131  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:53:00,132  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:54:00,280  INFO      ── Polling inbox ──
+2026-05-02 16:54:00,954  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:54:01,014  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:54:01,017  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:55:01,202  INFO      ── Polling inbox ──
+2026-05-02 16:55:01,717  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:55:01,777  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:55:01,784  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:56:01,955  INFO      ── Polling inbox ──
+2026-05-02 16:56:02,885  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:56:02,946  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:56:02,947  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:57:02,119  INFO      ── Polling inbox ──
+2026-05-02 16:57:02,701  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:57:02,772  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:57:02,773  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:58:03,036  INFO      ── Polling inbox ──
+2026-05-02 16:58:03,578  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:58:03,644  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:58:03,647  INFO      Sleeping 59s until next poll…
+
+2026-05-02 16:59:03,868  INFO      ── Polling inbox ──
+2026-05-02 16:59:04,536  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 16:59:04,602  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 16:59:04,603  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:00:04,838  INFO      ── Polling inbox ──
+2026-05-02 17:00:05,360  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:00:05,419  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:00:05,420  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:01:05,625  INFO      ── Polling inbox ──
+2026-05-02 17:01:06,228  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:01:06,297  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:01:06,313  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:02:06,542  INFO      ── Polling inbox ──
+2026-05-02 17:02:07,174  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:02:07,293  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:02:07,293  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:03:07,495  INFO      ── Polling inbox ──
+2026-05-02 17:03:08,175  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:03:08,257  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:03:08,258  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:04:08,418  INFO      ── Polling inbox ──
+2026-05-02 17:04:09,567  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:04:09,655  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:04:09,657  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:09:34,701  INFO      ── Polling inbox ──
+2026-05-02 17:09:38,297  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:09:38,463  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:09:38,490  INFO      Sleeping 56s until next poll…
+
+2026-05-02 17:10:35,565  INFO      ── Polling inbox ──
+2026-05-02 17:10:36,426  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:10:36,566  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:10:36,567  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:11:35,632  INFO      ── Polling inbox ──
+2026-05-02 17:11:36,458  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:11:36,518  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:11:36,519  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:12:36,558  INFO      ── Polling inbox ──
+2026-05-02 17:12:39,914  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:12:40,026  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:12:40,028  INFO      Sleeping 57s until next poll…
+
+2026-05-02 17:13:37,110  INFO      ── Polling inbox ──
+2026-05-02 17:13:37,697  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:13:37,778  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:13:37,780  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:14:37,836  INFO      ── Polling inbox ──
+2026-05-02 17:14:38,384  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:14:38,461  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:14:38,462  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:15:38,516  INFO      ── Polling inbox ──
+2026-05-02 17:15:39,409  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:15:39,500  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:15:39,502  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:16:38,577  INFO      ── Polling inbox ──
+2026-05-02 17:16:39,570  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:16:39,728  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:16:39,728  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:17:38,815  INFO      ── Polling inbox ──
+2026-05-02 17:17:39,352  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:17:39,441  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:17:39,442  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:18:39,505  INFO      ── Polling inbox ──
+2026-05-02 17:18:40,052  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:18:40,131  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:18:40,134  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:19:40,235  INFO      ── Polling inbox ──
+2026-05-02 17:19:40,820  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:19:40,881  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:19:40,885  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:20:41,034  INFO      ── Polling inbox ──
+2026-05-02 17:20:41,892  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:20:41,996  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:20:41,998  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:21:41,206  INFO      ── Polling inbox ──
+2026-05-02 17:21:41,794  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:21:41,859  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:21:41,880  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:22:42,110  INFO      ── Polling inbox ──
+2026-05-02 17:22:42,942  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:22:43,023  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:22:43,025  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:23:42,139  INFO      ── Polling inbox ──
+2026-05-02 17:23:43,098  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:23:43,156  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:23:43,157  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:24:42,500  INFO      ── Polling inbox ──
+2026-05-02 17:24:43,045  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:24:43,120  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:24:43,125  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:25:43,303  INFO      ── Polling inbox ──
+2026-05-02 17:25:43,926  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:25:44,001  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:25:44,010  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:26:44,303  INFO      ── Polling inbox ──
+2026-05-02 17:26:46,149  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:26:46,266  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:26:46,271  INFO      Sleeping 58s until next poll…
+
+2026-05-02 17:27:44,535  INFO      ── Polling inbox ──
+2026-05-02 17:27:45,328  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:27:45,438  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:27:45,439  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:28:44,677  INFO      ── Polling inbox ──
+2026-05-02 17:28:45,328  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:28:45,407  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:28:45,408  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:29:45,644  INFO      ── Polling inbox ──
+2026-05-02 17:29:46,306  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:29:46,380  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:29:46,384  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:30:46,577  INFO      ── Polling inbox ──
+2026-05-02 17:30:47,330  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:30:47,403  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:30:47,404  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:31:46,660  INFO      ── Polling inbox ──
+2026-05-02 17:31:47,150  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:31:47,220  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:31:47,221  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:32:47,469  INFO      ── Polling inbox ──
+2026-05-02 17:32:47,996  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:32:48,064  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:32:48,074  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:33:48,437  INFO      ── Polling inbox ──
+2026-05-02 17:33:49,596  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:33:49,681  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:33:49,682  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:34:49,011  INFO      ── Polling inbox ──
+2026-05-02 17:34:49,638  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:34:49,770  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:34:49,781  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:35:49,163  INFO      ── Polling inbox ──
+2026-05-02 17:35:49,747  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:35:49,808  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:35:49,809  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:36:50,130  INFO      ── Polling inbox ──
+2026-05-02 17:36:50,632  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:36:50,693  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:36:50,713  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:37:50,990  INFO      ── Polling inbox ──
+2026-05-02 17:37:51,566  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:37:51,632  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:37:51,633  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:38:51,125  INFO      ── Polling inbox ──
+2026-05-02 17:38:51,596  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:38:51,654  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:38:51,655  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:39:51,794  INFO      ── Polling inbox ──
+2026-05-02 17:39:52,327  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:39:52,389  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:39:52,390  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:40:52,490  INFO      ── Polling inbox ──
+2026-05-02 17:40:53,040  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:40:53,146  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:40:53,147  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:41:53,398  INFO      ── Polling inbox ──
+2026-05-02 17:41:54,040  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:41:54,114  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:41:54,115  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:42:54,321  INFO      ── Polling inbox ──
+2026-05-02 17:42:55,101  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:42:55,179  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:42:55,179  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:43:54,399  INFO      ── Polling inbox ──
+2026-05-02 17:43:54,921  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:43:54,979  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:43:54,982  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:44:55,299  INFO      ── Polling inbox ──
+2026-05-02 17:44:55,764  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:44:55,839  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:44:55,841  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:45:56,106  INFO      ── Polling inbox ──
+2026-05-02 17:45:56,782  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:45:56,894  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:45:56,895  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:46:56,145  INFO      ── Polling inbox ──
+2026-05-02 17:46:56,630  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:46:56,697  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:46:56,697  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:47:56,935  INFO      ── Polling inbox ──
+2026-05-02 17:47:57,508  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:47:57,589  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:47:57,590  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:48:57,795  INFO      ── Polling inbox ──
+2026-05-02 17:48:58,348  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:48:58,415  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:48:58,417  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:49:58,705  INFO      ── Polling inbox ──
+2026-05-02 17:49:59,492  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:49:59,588  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:49:59,589  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:50:58,864  INFO      ── Polling inbox ──
+2026-05-02 17:50:59,702  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:50:59,782  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:50:59,783  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:51:59,053  INFO      ── Polling inbox ──
+2026-05-02 17:51:59,530  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:51:59,587  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:51:59,587  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:52:59,889  INFO      ── Polling inbox ──
+2026-05-02 17:53:00,490  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:53:00,553  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:53:00,554  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:54:00,766  INFO      ── Polling inbox ──
+2026-05-02 17:54:01,343  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:54:01,443  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:54:01,444  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:55:01,673  INFO      ── Polling inbox ──
+2026-05-02 17:55:02,802  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:55:02,867  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:55:02,878  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:56:02,099  INFO      ── Polling inbox ──
+2026-05-02 17:56:05,395  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:56:05,461  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:56:05,464  INFO      Sleeping 57s until next poll…
+
+2026-05-02 17:57:02,688  INFO      ── Polling inbox ──
+2026-05-02 17:57:03,361  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:57:03,436  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:57:03,436  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:58:03,676  INFO      ── Polling inbox ──
+2026-05-02 17:58:04,721  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:58:04,938  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:58:04,939  INFO      Sleeping 59s until next poll…
+
+2026-05-02 17:59:04,171  INFO      ── Polling inbox ──
+2026-05-02 17:59:04,690  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 17:59:04,748  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 17:59:04,749  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:00:05,013  INFO      ── Polling inbox ──
+2026-05-02 18:00:05,659  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:00:05,726  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:00:05,727  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:01:06,004  INFO      ── Polling inbox ──
+2026-05-02 18:01:06,658  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:01:06,755  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:01:06,756  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:02:06,014  INFO      ── Polling inbox ──
+2026-05-02 18:02:06,590  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:02:06,677  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:02:06,678  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:03:06,953  INFO      ── Polling inbox ──
+2026-05-02 18:03:07,496  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:03:07,550  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:03:07,550  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:04:07,702  INFO      ── Polling inbox ──
+2026-05-02 18:04:08,177  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:04:08,269  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:04:08,270  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:05:08,582  INFO      ── Polling inbox ──
+2026-05-02 18:05:09,391  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:05:09,472  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:05:09,478  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:06:08,664  INFO      ── Polling inbox ──
+2026-05-02 18:06:09,194  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:06:09,262  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:06:09,266  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:07:09,573  INFO      ── Polling inbox ──
+2026-05-02 18:07:10,104  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:07:10,173  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:07:10,175  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:08:10,404  INFO      ── Polling inbox ──
+2026-05-02 18:08:10,942  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:08:11,041  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:08:11,043  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:09:11,367  INFO      ── Polling inbox ──
+2026-05-02 18:09:12,064  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:09:12,129  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:09:12,131  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:10:12,313  INFO      ── Polling inbox ──
+2026-05-02 18:10:13,096  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:10:13,172  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:10:13,174  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:11:12,481  INFO      ── Polling inbox ──
+2026-05-02 18:11:13,037  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:11:13,099  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:11:13,099  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:12:13,390  INFO      ── Polling inbox ──
+2026-05-02 18:12:14,041  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:12:14,125  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:12:14,127  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:13:14,313  INFO      ── Polling inbox ──
+2026-05-02 18:13:14,913  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:13:14,978  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:13:14,985  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:14:15,253  INFO      ── Polling inbox ──
+2026-05-02 18:14:15,863  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:14:15,982  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:14:15,984  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:15:16,190  INFO      ── Polling inbox ──
+2026-05-02 18:15:16,777  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:15:16,848  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:15:16,849  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:16:17,150  INFO      ── Polling inbox ──
+2026-05-02 18:16:17,689  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:16:17,780  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:16:17,782  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:17:18,060  INFO      ── Polling inbox ──
+2026-05-02 18:17:18,835  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:17:18,911  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:17:18,913  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:18:18,261  INFO      ── Polling inbox ──
+2026-05-02 18:18:18,817  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:18:18,880  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:18:18,881  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:19:19,163  INFO      ── Polling inbox ──
+2026-05-02 18:19:19,767  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:19:19,832  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:19:19,833  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:20:20,025  INFO      ── Polling inbox ──
+2026-05-02 18:20:20,546  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:20:20,611  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:20:20,618  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:21:20,835  INFO      ── Polling inbox ──
+2026-05-02 18:21:21,409  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:21:21,528  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:21:21,534  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:22:21,734  INFO      ── Polling inbox ──
+2026-05-02 18:22:22,317  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:22:22,386  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:22:22,387  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:23:22,672  INFO      ── Polling inbox ──
+2026-05-02 18:23:23,244  INFO      IMAP: 0 unseen message(s) found.
+2026-05-02 18:23:23,328  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-02 18:23:23,329  INFO      Sleeping 59s until next poll…
+
+2026-05-02 18:24:23,677  INFO      ── Polling inbox ──
+2026-05-02 18:24:24,378  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 11:59:01,525  INFO      ============================================================
+2026-05-03 11:59:01,526  INFO      ResolvOps Business AI Agent starting
+2026-05-03 11:59:01,528  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-03 11:59:01,528  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-03 11:59:01,529  INFO        Poll   : every 60s
+2026-05-03 11:59:01,530  INFO        Dry run: True  (no emails sent when True)
+2026-05-03 11:59:01,532  INFO      ============================================================
+2026-05-03 11:59:01,532  INFO      ── Polling inbox ──
+2026-05-03 11:59:02,191  INFO      IMAP: 1 unseen message(s) found.
+2026-05-03 11:59:02,497  INFO      Processing: [16] 'Automate your meeting reminders and follow-ups' from 'Calendly <teamcalendly@send.calendly.com>'
+2026-05-03 11:59:03,707  INFO        → SKIP (classified as non-business)
+2026-05-03 11:59:03,708  INFO      Cycle done. Total: 1 processed, 0 replied, 1 skipped, 0 errors.
+2026-05-03 11:59:03,709  INFO      Sleeping 58s until next poll…
+
+2026-05-03 12:00:01,754  INFO      ── Polling inbox ──
+2026-05-03 12:00:03,126  INFO      IMAP: 1 unseen message(s) found.
+2026-05-03 12:00:03,536  INFO      Processing: [17] 'Rebar company' from 'Tim Stevens <freewayrick1001@gmail.com>'
+2026-05-03 12:00:13,472  INFO        → REPLY drafted
+2026-05-03 12:00:13,473  INFO        → DRY RUN — reply NOT sent. Draft logged below:
+2026-05-03 12:00:13,473  INFO      ----------------------------------------
+2026-05-03 12:00:13,474  INFO      Hi Tim,
+
+Great questions — I appreciate you being direct.
+
+**Is it worth it?**
+If you're missing even one or two calls a month that turn into jobs, you're likely losing more than our monthly fee. A single rebar job can be worth thousands. Our AI answers every call 24/7, captures the lead, and makes sure you never lose a job to a competitor who just happened to pick up faster.
+
+**What makes us different?**
+Most answering services give you a generic script and a message pad. We train our AI specifically on YOUR business — your services, your pricing, your service area, the questions your customers actually ask. It sounds like part of your team, not a call center.
+
+**What exactly do we do for you?**
+- Answer every call, day or night, weekends and holidays included
+- Capture lead details and job info so you can follow up fast
+- Recover missed calls automatically with text follow-ups
+- Handle estimate requests and appointment scheduling (on our Growth and Pro plans)
+- Send you summaries so you always know what's happening
+
+For a rebar company, this means your phone is always covered when you're on a job site, in a meeting, or just trying to get through dinner without interruptions.
+
+Want to see how it would actually work for your business? I'd be happy to walk you through a quick demo — no pressure, just a look under the hood.
+
+Book a time here: calendly.com/resolvops/free-resolvops-demo
+
+Or just reply with any other questions — happy to help.
+
+The ResolvOps Team
+2026-05-03 12:00:13,475  INFO      ----------------------------------------
+2026-05-03 12:00:13,476  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:00:13,477  INFO      Sleeping 48s until next poll…
+
+2026-05-03 12:01:02,501  INFO      ── Polling inbox ──
+2026-05-03 12:01:03,433  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:01:03,546  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:01:03,547  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:02:02,572  INFO      ── Polling inbox ──
+2026-05-03 12:02:03,453  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:02:03,552  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:02:03,553  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:03:02,585  INFO      ── Polling inbox ──
+2026-05-03 12:03:03,445  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:03:03,563  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:03:03,564  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:04:02,591  INFO      ── Polling inbox ──
+2026-05-03 12:04:03,571  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:04:03,632  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:04:03,632  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:05:02,664  INFO      ── Polling inbox ──
+2026-05-03 12:05:03,984  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:05:04,188  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:05:04,189  INFO      Sleeping 58s until next poll…
+
+2026-05-03 12:06:03,228  INFO      ── Polling inbox ──
+2026-05-03 12:06:04,194  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:06:04,297  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:06:04,298  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:07:03,333  INFO      ── Polling inbox ──
+2026-05-03 12:07:04,201  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:07:04,303  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:07:04,304  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:08:04,334  INFO      ── Polling inbox ──
+2026-05-03 12:08:08,536  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:08:08,690  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:08:08,693  INFO      Sleeping 56s until next poll…
+
+2026-05-03 12:09:04,723  INFO      ── Polling inbox ──
+2026-05-03 12:09:05,653  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:09:05,754  INFO      Cycle done. Total: 2 processed, 1 replied, 1 skipped, 0 errors.
+2026-05-03 12:09:05,754  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:09:07,585  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-03 12:09:07,756  INFO      Agent stopped cleanly. Goodbye.
+2026-05-03 12:14:20,482  INFO      ============================================================
+2026-05-03 12:14:20,483  INFO      ResolvOps Business AI Agent starting
+2026-05-03 12:14:20,483  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-03 12:14:20,484  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-03 12:14:20,484  INFO        Poll   : every 60s
+2026-05-03 12:14:20,485  INFO        Dry run: False  (no emails sent when True)
+2026-05-03 12:14:20,485  INFO      ============================================================
+2026-05-03 12:14:20,486  INFO      ── Polling inbox ──
+2026-05-03 12:14:21,905  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:14:21,969  INFO      Cycle done. Total: 0 processed, 0 replied, 0 skipped, 0 errors.
+2026-05-03 12:14:21,970  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:15:20,998  INFO      ── Polling inbox ──
+2026-05-03 12:15:21,942  INFO      IMAP: 1 unseen message(s) found.
+2026-05-03 12:15:22,241  INFO      Processing: [18] 'My plumbing business' from 'Tim Stevens <freewayrick1001@gmail.com>'
+2026-05-03 12:15:28,641  INFO        → REPLY drafted
+2026-05-03 12:15:32,011  INFO        → SENT  (Message-ID: <resolvops.20260503161528@resolvops.ai>)
+2026-05-03 12:15:32,012  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:15:32,013  INFO      Sleeping 49s until next poll…
+
+2026-05-03 12:16:21,036  INFO      ── Polling inbox ──
+2026-05-03 12:16:21,982  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:16:22,085  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:16:22,086  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:17:21,181  INFO      ── Polling inbox ──
+2026-05-03 12:17:21,992  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:17:22,096  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:17:22,097  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:18:22,159  INFO      ── Polling inbox ──
+2026-05-03 12:18:22,928  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:18:23,021  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:18:23,022  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:19:23,111  INFO      ── Polling inbox ──
+2026-05-03 12:19:24,156  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:19:24,274  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:19:24,276  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:20:23,363  INFO      ── Polling inbox ──
+2026-05-03 12:20:25,905  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:20:26,725  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:20:26,726  INFO      Sleeping 57s until next poll…
+
+2026-05-03 12:21:23,795  INFO      ── Polling inbox ──
+2026-05-03 12:21:24,791  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:21:24,886  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:21:24,886  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:22:23,935  INFO      ── Polling inbox ──
+2026-05-03 12:22:24,690  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:22:24,790  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:22:24,791  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:23:24,838  INFO      ── Polling inbox ──
+2026-05-03 12:23:25,719  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:23:25,822  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:23:25,823  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:24:24,864  INFO      ── Polling inbox ──
+2026-05-03 12:24:26,239  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:24:26,345  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:24:26,345  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:25:25,382  INFO      ── Polling inbox ──
+2026-05-03 12:25:26,555  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:25:26,657  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:25:26,658  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:26:25,711  INFO      ── Polling inbox ──
+2026-05-03 12:26:26,458  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:26:26,563  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:26:26,564  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:27:26,617  INFO      ── Polling inbox ──
+2026-05-03 12:27:27,489  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:27:27,592  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:27:27,592  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:28:26,667  INFO      ── Polling inbox ──
+2026-05-03 12:28:27,702  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:28:27,783  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:28:27,785  INFO      Sleeping 59s until next poll…
+
+2026-05-03 12:29:26,813  INFO      ── Polling inbox ──
+2026-05-03 12:29:28,220  INFO      IMAP: 0 unseen message(s) found.
+2026-05-03 12:29:28,426  INFO      Cycle done. Total: 1 processed, 1 replied, 0 skipped, 0 errors.
+2026-05-03 12:29:28,426  INFO      Sleeping 58s until next poll…
+
+2026-05-03 12:29:32,410  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-03 12:29:32,428  INFO      Agent stopped cleanly. Goodbye.
+2026-05-04 13:55:59,302  INFO      ============================================================
+2026-05-04 13:55:59,303  INFO      ResolvOps Business AI Agent starting
+2026-05-04 13:55:59,303  INFO        Inbox  : resolvops@gmail.com @ imap.gmail.com
+2026-05-04 13:55:59,304  INFO        Sender : resolvops@gmail.com @ smtp.gmail.com
+2026-05-04 13:55:59,304  INFO        Poll   : every 60s
+2026-05-04 13:55:59,304  INFO        Dry run: False  (no emails sent when True)
+2026-05-04 13:55:59,304  INFO      ============================================================
+2026-05-04 13:55:59,305  INFO      ── Polling inbox ──
+2026-05-04 13:56:01,318  INFO      IMAP: 2 unseen message(s) found.
+2026-05-04 13:56:02,441  INFO      Processing: [19] '3 steps to your first meeting' from 'Calendly <teamcalendly@send.calendly.com>'
+2026-05-04 13:56:04,416  INFO        → SKIP (classified as non-business)
+2026-05-04 13:56:04,417  INFO      Processing: [20] 'Security alert' from 'Google <no-reply@accounts.google.com>'
+2026-05-04 13:56:06,378  INFO        → SKIP (classified as non-business)
+2026-05-04 13:56:06,378  INFO      Cycle done. Total: 2 processed, 0 replied, 2 skipped, 0 errors.
+2026-05-04 13:56:06,379  INFO      Sleeping 53s until next poll…
+
+2026-05-04 13:56:16,226  INFO      Shutdown signal received — finishing current cycle then stopping.
+2026-05-04 13:56:16,383  INFO      Agent stopped cleanly. Goodbye.
