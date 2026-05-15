@@ -44,7 +44,7 @@ def log_to_sheets(data):
         ])
         print("Logged to Google Sheets successfully")
     except Exception as e:
-        print(f"Sheets Error: {e}")
+        print(f"Sheets Error: {type(e).__name__}: {e}")
 
 
 def format_phone(raw):
