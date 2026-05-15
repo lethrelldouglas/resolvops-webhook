@@ -23,36 +23,24 @@ def get_sheet():
     creds_dict = json.loads(raw)
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     client = gspread.authorize(creds)
-    return client.open_by_key(SHEET_ID).sheet1
+    return client.open_by_key(SHEET_ID).worksheet("Inbound Calls")
 
 
 def log_to_sheets(data):
     try:
         sheet = get_sheet()
-
-        # Add header row if sheet is empty
-        if sheet.row_count == 0 or sheet.cell(1, 1).value is None:
-            sheet.append_row([
-                "Date", "Time", "Caller Name", "Business Name",
-                "Phone Number", "Email", "Interested In",
-                "Lead Quality", "Demo Booked", "Follow-Up Needed",
-                "Call Duration", "Call Successful"
-            ])
-
         now = datetime.now()
         sheet.append_row([
             now.strftime("%Y-%m-%d"),
-            now.strftime("%I:%M %p"),
             data.get("caller_name", ""),
             data.get("business_name", ""),
             format_phone(data.get("phone_number", "")),
             data.get("email", ""),
+            format_phone(data.get("phone_number", "")),
             data.get("interested_in", ""),
             data.get("lead_quality", ""),
             "Yes" if str(data.get("booked_demo", "")).lower() == "true" else "No",
-            "Yes" if str(data.get("follow_up_needed", "")).lower() == "true" else "No",
-            data.get("duration", ""),
-            data.get("call_successful", ""),
+            data.get("call_summary", ""),
         ])
         print("Logged to Google Sheets successfully")
     except Exception as e:
@@ -139,6 +127,7 @@ def webhook():
             "follow_up_needed": custom_data.get("Follow_up_needed", ""),
             "duration": duration,
             "call_successful": analysis.get("call_successful", ""),
+            "call_summary": analysis.get("call_summary", ""),
         }
 
         print("EMAIL:", email)
