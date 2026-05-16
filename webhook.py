@@ -1,6 +1,7 @@
 import os
 import json
 import smtplib
+import traceback
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from datetime import datetime
@@ -48,6 +49,7 @@ def log_to_sheets(data):
         print("Logged to Google Sheets successfully")
     except Exception as e:
         print(f"Sheets Error: {type(e).__name__}: {e}")
+        traceback.print_exc()
 
 
 def format_phone(raw):
