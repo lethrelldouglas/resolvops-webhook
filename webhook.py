@@ -88,7 +88,7 @@ resolvops.ai
         server.quit()
         print(f"Email sent to {to_email}")
     except Exception as e:
-        print(f"Email Error: {e}")
+        print(f"Email Error: {type(e).__name__}: {e}")
 
 
 @app.route("/", methods=["GET", "POST"])
