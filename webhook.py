@@ -120,6 +120,7 @@ resolvops.ai
             json={
                 "from": SENDER_EMAIL,
                 "to": [to_email],
+                "reply_to": "resolvops@gmail.com",
                 "subject": "Your Free ResolvOps Demo Link",
                 "text": body,
             },
