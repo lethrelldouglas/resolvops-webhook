@@ -14,8 +14,8 @@ SCOPES   = ["https://www.googleapis.com/auth/spreadsheets",
             "https://www.googleapis.com/auth/drive"]
 
 RESEND_API_KEY  = os.environ.get("RESEND_API_KEY")
-SENDER_EMAIL    = "onboarding@resend.dev"
-NOTIFY_EMAIL    = "resolvops@gmail.com"   # your verified Resend email — receives lead alerts
+SENDER_EMAIL    = "aria@resolvops.ai"
+NOTIFY_EMAIL    = "resolvops@gmail.com"
 
 
 def get_sheet():
@@ -93,6 +93,46 @@ Calendly: https://calendly.com/resolvops/free-resolvops-demo
         print(f"Email Error: {type(e).__name__}: {e}")
 
 
+def send_booking_email(to_email, caller_name):
+    name = caller_name if caller_name else "there"
+    body = f"""Hi {name},
+
+Thanks for calling ResolvOps!
+
+Here is your link to book a free demo call:
+https://calendly.com/resolvops/free-resolvops-demo
+
+Simply pick a time that works for you and we'll walk you through everything live.
+
+Looking forward to connecting!
+
+— Lethrell Douglas
+Founder, ResolvOps
+resolvops.ai
+"""
+    try:
+        resp = requests.post(
+            "https://api.resend.com/emails",
+            headers={
+                "Authorization": f"Bearer {RESEND_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "from": SENDER_EMAIL,
+                "to": [to_email],
+                "subject": "Your Free ResolvOps Demo Link",
+                "text": body,
+            },
+            timeout=10,
+        )
+        if resp.status_code in (200, 201):
+            print(f"Booking email sent to {to_email}")
+        else:
+            print(f"Booking Email Error: {resp.status_code} {resp.text}")
+    except Exception as e:
+        print(f"Booking Email Error: {type(e).__name__}: {e}")
+
+
 @app.route("/", methods=["GET", "POST"])
 def webhook():
     if request.method == "GET":
@@ -131,6 +171,8 @@ def webhook():
         print(f"Call received — NAME: {name} | EMAIL: {email}")
         log_to_sheets(log_data)
         send_lead_alert(log_data)
+        if email:
+            send_booking_email(email, name)
 
         return jsonify({"status": "ok"}), 200
 
