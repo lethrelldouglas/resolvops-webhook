@@ -1,9 +1,6 @@
 import os
 import json
-import smtplib
-import traceback
-from email.mime.text import MIMEText
-from email.mime.multipart import MIMEMultipart
+import requests
 from datetime import datetime
 from flask import Flask, request, jsonify
 import gspread
@@ -12,19 +9,16 @@ from google.oauth2.service_account import Credentials
 app = Flask(__name__)
 
 SHEET_ID = "1eNWGM4Ga1hJVyR-Nq95rkVeDcQweu1ju38yQZ8iO4a4"
-SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
+SCOPES   = ["https://www.googleapis.com/auth/spreadsheets",
+            "https://www.googleapis.com/auth/drive"]
 
-
-SMTP_USER = os.environ.get("SMTP_USER")
-SMTP_PASS = os.environ.get("SMTP_PASS")
+RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
+SENDER_EMAIL   = "onboarding@resend.dev"   # free Resend default — no domain needed
 
 
 def get_sheet():
     raw = os.environ.get("GOOGLE_CREDS", "")
     creds_dict = json.loads(raw)
-    # Fix escaped newlines in private key when stored as env variable
-    if "private_key" in creds_dict:
-        creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     client = gspread.authorize(creds)
     return client.open_by_key(SHEET_ID).worksheet("Inbound Calls")
@@ -33,7 +27,7 @@ def get_sheet():
 def log_to_sheets(data):
     try:
         sheet = get_sheet()
-        now = datetime.now()
+        now   = datetime.now()
         sheet.append_row([
             now.strftime("%Y-%m-%d"),
             data.get("caller_name", ""),
@@ -46,10 +40,9 @@ def log_to_sheets(data):
             "Yes" if str(data.get("booked_demo", "")).lower() == "true" else "No",
             data.get("call_summary", ""),
         ])
-        print("Logged to Google Sheets successfully")
+        print(f"Sheet row added for {data.get('caller_name', 'unknown')}")
     except Exception as e:
         print(f"Sheets Error: {type(e).__name__}: {e}")
-        traceback.print_exc()
 
 
 def format_phone(raw):
@@ -60,83 +53,82 @@ def format_phone(raw):
         return f"({digits[:3]}) {digits[3:6]}-{digits[6:]}"
     return raw
 
+
 def send_booking_email(to_email, caller_name):
-    body = f"""Hi {caller_name},
+    name = caller_name if caller_name else "there"
+    body = f"""Hi {name},
 
-Thanks for speaking with us today!
+Thanks for calling ResolvOps!
 
-Here is your free demo booking link:
+Here is your link to book a free demo call:
 https://calendly.com/resolvops/free-resolvops-demo
 
-WHAT WE OFFER
-- Starter: $397/month + $550 setup
-- Growth: $647/month + $697 setup
-- Pro: $997/month + $997 setup
+Simply pick a time that works for you and we'll walk you through everything live.
 
 Looking forward to connecting!
 
-Lethrell Douglas
-Founder, ResolvOps
+— The ResolvOps Team
 resolvops.ai
 """
-    msg = MIMEMultipart("alternative")
-    msg["From"] = SMTP_USER
-    msg["To"] = to_email
-    msg["Subject"] = "Your Free ResolvOps Demo Link"
-    msg.attach(MIMEText(body, "plain"))
-
     try:
-        server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
-        server.login(SMTP_USER, SMTP_PASS)
-        server.sendmail(SMTP_USER, to_email, msg.as_string())
-        server.quit()
-        print(f"Email sent to {to_email}")
+        resp = requests.post(
+            "https://api.resend.com/emails",
+            headers={
+                "Authorization": f"Bearer {RESEND_API_KEY}",
+                "Content-Type": "application/json",
+            },
+            json={
+                "from": SENDER_EMAIL,
+                "to": [to_email],
+                "subject": "Your Free ResolvOps Demo Link",
+                "text": body,
+            },
+            timeout=10,
+        )
+        if resp.status_code == 200 or resp.status_code == 201:
+            print(f"Email sent to {to_email}")
+        else:
+            print(f"Email Error: {resp.status_code} {resp.text}")
     except Exception as e:
         print(f"Email Error: {type(e).__name__}: {e}")
 
 
 @app.route("/", methods=["GET", "POST"])
 def webhook():
-
     if request.method == "GET":
         return jsonify({"status": "ResolvOps webhook running"}), 200
 
     try:
-        body = request.get_json()
-
-        call = body.get("call", {})
-        analysis = call.get("call_analysis", {})
+        body        = request.get_json(force=True) or {}
+        call        = body.get("call", {})
+        analysis    = call.get("call_analysis", {})
         custom_data = analysis.get("custom_analysis_data", {})
 
-        email = custom_data.get("email", "")
-        name = custom_data.get("caller_name", "there")
+        email = custom_data.get("email", "").strip()
+        name  = custom_data.get("caller_name", "").strip()
 
-        # Calculate duration in readable format
         start_ts = call.get("start_timestamp")
-        end_ts = call.get("end_timestamp")
+        end_ts   = call.get("end_timestamp")
         if start_ts and end_ts:
-            secs = int((end_ts - start_ts) / 1000)
+            secs     = int((end_ts - start_ts) / 1000)
             duration = f"{secs // 60}m {secs % 60}s"
         else:
             duration = ""
 
         log_data = {
-            "caller_name": custom_data.get("caller_name", ""),
-            "business_name": custom_data.get("Business_name", ""),
-            "phone_number": call.get("from_number", custom_data.get("Phone_number", "")),
-            "email": email,
-            "interested_in": custom_data.get("Interested_in", ""),
-            "lead_quality": custom_data.get("lead_quality", ""),
-            "booked_demo": custom_data.get("booked_demo", ""),
-            "follow_up_needed": custom_data.get("Follow_up_needed", ""),
-            "duration": duration,
-            "call_successful": analysis.get("call_successful", ""),
-            "call_summary": analysis.get("call_summary", ""),
+            "caller_name":    name,
+            "business_name":  custom_data.get("Business_name", ""),
+            "phone_number":   call.get("from_number", custom_data.get("Phone_number", "")),
+            "email":          email,
+            "interested_in":  custom_data.get("Interested_in", ""),
+            "lead_quality":   custom_data.get("lead_quality", ""),
+            "booked_demo":    custom_data.get("booked_demo", ""),
+            "follow_up":      custom_data.get("Follow_up_needed", ""),
+            "duration":       duration,
+            "call_summary":   analysis.get("call_summary", ""),
         }
 
-        print("EMAIL:", email)
-        print("NAME:", name)
-
+        print(f"Call received — NAME: {name} | EMAIL: {email}")
         log_to_sheets(log_data)
 
         if email:
@@ -145,7 +137,7 @@ def webhook():
         return jsonify({"status": "ok"}), 200
 
     except Exception as e:
-        print("Webhook Error:", str(e))
+        print(f"Webhook Error: {type(e).__name__}: {e}")
         return jsonify({"error": str(e)}), 500
 
 
