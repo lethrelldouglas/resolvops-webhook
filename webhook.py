@@ -1,5 +1,6 @@
 import os
 import json
+import base64
 import requests
 from datetime import datetime
 from flask import Flask, request, jsonify
@@ -12,13 +13,14 @@ SHEET_ID = "1eNWGM4Ga1hJVyR-Nq95rkVeDcQweu1ju38yQZ8iO4a4"
 SCOPES   = ["https://www.googleapis.com/auth/spreadsheets",
             "https://www.googleapis.com/auth/drive"]
 
-RESEND_API_KEY = os.environ.get("RESEND_API_KEY")
-SENDER_EMAIL   = "onboarding@resend.dev"   # free Resend default — no domain needed
+RESEND_API_KEY  = os.environ.get("RESEND_API_KEY")
+SENDER_EMAIL    = "onboarding@resend.dev"
+NOTIFY_EMAIL    = "resolvops@gmail.com"   # your verified Resend email — receives lead alerts
 
 
 def get_sheet():
     raw = os.environ.get("GOOGLE_CREDS", "")
-    creds_dict = json.loads(raw)
+    creds_dict = json.loads(base64.b64decode(raw).decode("utf-8"))
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     client = gspread.authorize(creds)
     return client.open_by_key(SHEET_ID).worksheet("Inbound Calls")
@@ -54,21 +56,19 @@ def format_phone(raw):
     return raw
 
 
-def send_booking_email(to_email, caller_name):
-    name = caller_name if caller_name else "there"
-    body = f"""Hi {name},
+def send_lead_alert(data):
+    body = f"""New inbound call — ResolvOps
 
-Thanks for calling ResolvOps!
+Name:        {data.get('caller_name', 'Unknown')}
+Business:    {data.get('business_name', 'Unknown')}
+Phone:       {format_phone(data.get('phone_number', ''))}
+Email:       {data.get('email', 'Not provided')}
+Interested:  {data.get('interested_in', '')}
+Lead Quality:{data.get('lead_quality', '')}
+Demo Booked: {'Yes' if str(data.get('booked_demo', '')).lower() == 'true' else 'No'}
+Summary:     {data.get('call_summary', '')}
 
-Here is your link to book a free demo call:
-https://calendly.com/resolvops/free-resolvops-demo
-
-Simply pick a time that works for you and we'll walk you through everything live.
-
-Looking forward to connecting!
-
-— The ResolvOps Team
-resolvops.ai
+Calendly: https://calendly.com/resolvops/free-resolvops-demo
 """
     try:
         resp = requests.post(
@@ -79,14 +79,14 @@ resolvops.ai
             },
             json={
                 "from": SENDER_EMAIL,
-                "to": [to_email],
-                "subject": "Your Free ResolvOps Demo Link",
+                "to": [NOTIFY_EMAIL],
+                "subject": f"New Lead: {data.get('caller_name', 'Unknown')} — ResolvOps",
                 "text": body,
             },
             timeout=10,
         )
-        if resp.status_code == 200 or resp.status_code == 201:
-            print(f"Email sent to {to_email}")
+        if resp.status_code in (200, 201):
+            print(f"Lead alert sent to {NOTIFY_EMAIL}")
         else:
             print(f"Email Error: {resp.status_code} {resp.text}")
     except Exception as e:
@@ -130,9 +130,7 @@ def webhook():
 
         print(f"Call received — NAME: {name} | EMAIL: {email}")
         log_to_sheets(log_data)
-
-        if email:
-            send_booking_email(email, name)
+        send_lead_alert(log_data)
 
         return jsonify({"status": "ok"}), 200
 
