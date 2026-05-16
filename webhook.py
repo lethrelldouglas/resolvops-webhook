@@ -21,6 +21,9 @@ SMTP_PASS = os.environ.get("SMTP_PASS")
 def get_sheet():
     raw = os.environ.get("GOOGLE_CREDS", "")
     creds_dict = json.loads(raw)
+    # Fix escaped newlines in private key when stored as env variable
+    if "private_key" in creds_dict:
+        creds_dict["private_key"] = creds_dict["private_key"].replace("\\n", "\n")
     creds = Credentials.from_service_account_info(creds_dict, scopes=SCOPES)
     client = gspread.authorize(creds)
     return client.open_by_key(SHEET_ID).worksheet("Inbound Calls")
@@ -81,8 +84,7 @@ resolvops.ai
     msg.attach(MIMEText(body, "plain"))
 
     try:
-        server = smtplib.SMTP("smtp.gmail.com", 587)
-        server.starttls()
+        server = smtplib.SMTP_SSL("smtp.gmail.com", 465)
         server.login(SMTP_USER, SMTP_PASS)
         server.sendmail(SMTP_USER, to_email, msg.as_string())
         server.quit()
